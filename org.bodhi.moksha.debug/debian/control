@@ -1,0 +1,15 @@
+Source: moksha-debug
+Section: devel
+Priority: optional
+Maintainer: Rene Malmgren <rene.malmgren@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/moksha-debug.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/moksha-debug.git
+
+Package: moksha-debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gdbserver, moksha 
+Description: Moksha debug scripts
+ A set of scripts to make debuging of moksha more easy
